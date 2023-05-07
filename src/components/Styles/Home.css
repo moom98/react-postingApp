@@ -1,0 +1,51 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    width: calc(100% -80px);
+    padding: 20px;
+}
+
+.home .postContents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+    max-height: 600px;
+    padding: 20px;
+    margin-top: 60px;
+    background-color: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.postHeader h1{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.postContents .postTextContainer{
+    width: 100%;
+    max-height: 400px;
+    word-wrap:break-word;
+}
+
+.postFooter{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.postFooter h3{
+    flex: 90%;
+}
+
+.postFooter button{
+    flex: 10%;
+    padding: 10px 15px;
+    background-color: rgb(120, 154, 218);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
